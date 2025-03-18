@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{url_for ('static', filename= 'css/index.css') }}">
+</head>
+<body>
+    <div class="main">
+        <nav>
+            <p>LOGO</p>
+            <div class="search-container">
+                <input type="text" name="search" placeholder="Search..." class="search-input">
+            </div>
+            <div class="nav1">
+                <a>Home</a>
+                <a>About</a>
+                <a>Services</a>
+                <a>Contact Us</a>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="col1">
+                <div class="cool">
+                    <input type="text>">
+                    <input type="text>">
+                    <input type="text>">
+                    <input type="text>"> 
+                </div>
+            </div>
+            <div class="col2">
+                <p>Our creative library is free of AI-generated content
+                    Choose your visuals with confidence knowing our creative library is free from AI-generated content, so your searches only return safe, high-quality visuals you can trust.</p>
+            </div>
+            <div class="col3">
+                <img src="{{url_for ('static', filename= 'image/image.png') }}" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
